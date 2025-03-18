@@ -7,9 +7,9 @@
 
 # 2nd method
 
-row = int(input('Enter Rows: '))
-for i in range(1, row+1):
-    for i in range(i):
+row = int(input('Enter Number of Rows: '))
+for i in range(row):
+    for j in range(i+1):
         print("*", end = " ")
     print()
 
