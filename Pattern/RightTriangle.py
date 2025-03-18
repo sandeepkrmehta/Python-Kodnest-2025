@@ -1,3 +1,6 @@
+#Increasing Star Pattern
+rows = int(input('Enter Number of Rows: ')) # taking an input
+
 # 1st method
 
 # row = int(input('Enter Rows: '))
@@ -7,8 +10,8 @@
 
 # 2nd method
 
-row = int(input('Enter Number of Rows: '))
-for i in range(row):
+
+for i in range(rows):
     for j in range(i+1):
         print("*", end = " ")
     print()
@@ -35,3 +38,72 @@ for i in range(row):
 # 1 2 3 4
 # 1 2 3 4 5
 # 1 2 3 4 5 6
+
+# Decreasing Star Pattern
+
+# rows = int(input('Enter Number of Rows: '))
+
+# for i in range(rows):
+#     for j in range(5 - i):
+#         print("*", end=" ")
+#     print()
+
+# output:
+# Enter Number of Rows: 5
+# * * * * * 
+# * * * * 
+# * * * 
+# * * 
+# * 
+print(" ")  # Space betweem them
+
+for i in range(rows):
+    for j in range(i, rows):
+        print("*", end=" ")
+    print()
+
+
+# output: 
+# * * * * *
+# * * * *
+# * * *
+# * *
+# *
+
+print(" ")  # Space betweem them
+
+for i in range(rows):
+    for j in range(i , rows):
+        print(' ', end=" ")
+    for k in range(i + 1):
+        print("*", end=" ")
+    for m in range(i):
+        print("*", end=" ")
+    print()
+
+# output: 
+#           *
+#         * * *
+#       * * * * *
+#     * * * * * * *
+#   * * * * * * * * *
+
+
+print(" ")  # Space betweem them
+
+for i in range(rows):
+    for j in range(i + 1):
+        print(' ', end = " ")
+    for k in range(i, rows):
+        print("*", end=" ")
+    for m in range(i, rows - 1):
+        print("*", end=" ")
+    print()
+
+
+# output :
+#   * * * * * * * * *
+#     * * * * * * *
+#       * * * * *
+#         * * *
+#           *
