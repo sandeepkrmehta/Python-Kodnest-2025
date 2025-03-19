@@ -27,3 +27,7 @@ tup2 = (30, 40)
 newtup = tup1 + tup2
 print(newtup)  # (10, 20, 30, 40)
 print(len(newtup))  # 4
+
+
+sample_tup = (100, 200, 300)
+del sample_tup
