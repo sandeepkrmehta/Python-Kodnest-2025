@@ -12,7 +12,6 @@ class Child(Parent):
 c = Child()
 c.cook()
 
-
 '''
 The Method which is derived from parent class and used as it is in child class, we call it as 
 Inherited Method.

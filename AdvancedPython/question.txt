@@ -1,0 +1,27 @@
+    1. What is access modifiers and how many types we have in python?
+
+    -> access modifiers  are used to determine the accessibility of methods and properties.
+
+    2. Types:
+
+    -> public : a
+
+    -> protected : _a
+ 
+    ->Private : __a
+
+    3. Explain Public Access Modifiers/Specifiers:
+    
+    -> We can Access public methods or properties inside the same class in which they are 
+    decleared, outside the class, inside the child class, inside no-child class.
+
+    Code Example: 
+
+    4. Explain Protected Accessibility in Python:
+
+    -> We can Access public methods or properties inside the same class in which they are 
+    decleared, outside the class, inside the child class, inside no-child class.
+
+    Python won't support protected Access Modifiersits just a message from developer to developer to access the variables
+
+    5. 
