@@ -6,3 +6,7 @@ print(iterator.__next__())
 print(iterator.__next__())
 print(iterator.__next__())
 print(iterator.__next__())  #StopIteration
+
+'''
+Inside the generator function using iterator
+'''
